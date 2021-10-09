@@ -2,9 +2,9 @@ $(document).ready(function(){
     $(window).scroll(function(){
         // sticky navbar on scroll script
         if(this.scrollY > 20){
-            $('.navbar').addClass("sticky");
+            $('.FABIO-020').addClass("sticky");
         }else{
-            $('.navbar').removeClass("sticky");
+            $('.FABIO-020').removeClass("sticky");
         }
         
         // scroll-up button show/hide script
@@ -29,20 +29,20 @@ $(document).ready(function(){
 
     // toggle menu/navbar script
     $('.menu-btn').click(function(){
-        $('.navbar .menu').toggleClass("active");
+        $('.FABIO-020 .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
     });
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["YouTuber", "Developer", "Blogger", "Designer", "Freelancer"],
+        strings: ["YouTuber", "Developer", "SERVER DESIGNER", "Designer", "BOT DESIGNER"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["YouTuber", "Developer", "Blogger", "Designer", "Freelancer"],
+        strings: ["YouTuber", "Developer", "SERVER DESIGNER", "Designer", "BOT DESIGNER"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
